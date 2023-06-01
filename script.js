@@ -21,7 +21,7 @@ form.addEventListener("submit", (event) => {
 } 
     else if (isNaN(dividend) || isNaN(divider)) {
         body.innerText = "Something critical went wrong. Please reload the page";
-        console.error();
+        console.error(body.innerText);
    } 
     else {
         result.innerText = Math.floor(dividend / divider);
